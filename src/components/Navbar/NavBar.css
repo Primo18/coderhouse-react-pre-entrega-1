@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* color verde de fondo en degrade */
+    background-color: #00bfa5;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar-item.active {
+    font-weight: bold;
+}
+
+.navbar-item:hover {
+    text-decoration: underline;
+}
